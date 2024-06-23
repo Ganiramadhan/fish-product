@@ -16,16 +16,4 @@ Fish Marketplace is a web application built with Next.js, designed to provide a 
 - **Tailwind CSS**: Utility-first CSS framework for styling.
 - **TypeScript**: Typed JavaScript for enhanced code quality and developer productivity.
 
-## Getting Started
 
-To run this project locally, follow these steps:
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone <repository_url>
-   cd fish-marketplace
-
-npm install
-npm run dev
-http://localhost:3000
