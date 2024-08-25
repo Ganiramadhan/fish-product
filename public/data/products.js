@@ -5,7 +5,7 @@ const products = [
     category: 'Seafood',
     price: 25000,
     stock: 10,
-    image: 'https://i.pinimg.com/564x/f8/92/d8/f892d88b77daeb95656fbb5139814def.jpg',
+    image: 'https://th.bing.com/th/id/OIP.MiYNKSt_h1bZNsOB9hGPiQHaE8?w=1536&h=1024&rs=1&pid=ImgDetMain',
     description: 'Ikan tuna segar yang berasal dari perairan dalam, kaya akan protein dan omega-3.',
     benefits: 'Membantu meningkatkan kesehatan jantung dan otak.',
     nutritionalInfo: 'Protein: 25g, Fat: 2g, Carbs: 0g, Calories: 116 per 100g',
