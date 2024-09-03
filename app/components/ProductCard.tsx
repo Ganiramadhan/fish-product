@@ -30,7 +30,6 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, onViewD
         {formatRupiah(product.price)} <span className="text-sm text-gray-600">/kg</span>
       </p>
 
-      {/* Buttons */}
       <div className="flex mt-4 space-x-4">
         <button
           className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md shadow-sm"
