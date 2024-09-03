@@ -3,4 +3,51 @@
 @tailwind utilities;
 
 
+/* Import CSS utama dari AlertifyJS */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/alertify.js/1.13.1/css/alertify.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/alertify.js/1.13.1/css/themes/default.min.css');
 
+/* Kustomisasi header alert */
+.alertify .ajs-header {
+  background-color: #4f46e5; /* Warna ungu */
+  color: black;
+  font-weight: bold;
+  padding: 15px;
+  border-bottom: 2px solid #c7d2fe; /* Warna ungu muda */
+  border-radius: 5px 5px 0 0;
+}
+
+/* Kustomisasi footer alert */
+.alertify .ajs-footer {
+  background-color: #eef2ff; /* Warna ungu sangat muda */
+  padding: 10px;
+  border-top: 1px solid #c7d2fe; /* Warna ungu muda */
+  border-radius: 0 0 5px 5px;
+  text-align: right;
+}
+
+/* Kustomisasi tombol di dalam alert */
+.alertify .ajs-footer .ajs-buttons .ajs-button {
+  background-color: #4f46e5; /* Warna ungu */
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.alertify .ajs-footer .ajs-buttons .ajs-button:hover {
+  background-color: #3730a3; /* Warna ungu lebih gelap saat hover */
+}
+
+/* Kustomisasi notifikasi sukses */
+.alertify-notifier .ajs-message.ajs-success {
+  background-color: #4caf50; /* Warna hijau sukses */
+  color: white;
+}
+
+/* Kustomisasi notifikasi error */
+.alertify-notifier .ajs-message.ajs-error {
+  background-color: #f44336; /* Warna merah error */
+  color: white;
+}
