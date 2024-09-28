@@ -51,10 +51,6 @@ To clone and run this project locally:
    ```bash
    npm run dev
    ```
+Your application should now be running at http://localhost:3000. Open this URL in your browser to see your project.
 
-2. Open your browser and go to:
-
-   ```bash
-    [cd fish-marketplace](http://localhost:3000)
-   ```
 
