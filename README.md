@@ -40,7 +40,7 @@ To clone and run this project locally:
 3. Install the dependencies:
 
    ```bash
-   git clone https://github.com/yourusername/fish-marketplace.git
+   npm or yarn install
    ```
 
 
